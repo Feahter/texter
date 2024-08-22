@@ -1,9 +1,0 @@
-{
-  "name": "texter-e2e",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/texter-e2e/src",
-  "tags": [],
-  "implicitDependencies": ["texter"],
-  "// targets": "to see all targets run: nx show project texter-e2e --web",
-  "targets": {}
-}
