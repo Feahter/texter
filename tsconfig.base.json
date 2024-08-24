@@ -20,8 +20,14 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "ui": [
-        "ui/src/index.ts"
+      "@app/*": [
+        "apps/*"
+      ],
+      "@texter/*": [
+        "apps/texter/src"
+      ],
+      "@utils/*": [
+        "apps/texter/src/utils"
       ]
     }
   },

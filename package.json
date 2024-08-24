@@ -13,6 +13,7 @@
   "private": true,
   "type": "module",
   "dependencies": {
+    "@unocss/reset": "^0.62.2",
     "commitizen": "^4.3.0",
     "global": "^4.4.0",
     "react": "18.3.1",
