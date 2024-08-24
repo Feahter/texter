@@ -1732,6 +1732,11 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
+"@material/material-color-utilities@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.npmmirror.com/@material/material-color-utilities/-/material-color-utilities-0.3.0.tgz#681b0ecd0820ac012d50d371912227f6b2dc7817"
+  integrity sha512-ztmtTd6xwnuh2/xu+Vb01btgV8SQWYCaK56CkRK8gEkWe5TuDyBcYJ0wgkMRn+2VcE9KUmhvkz+N9GHrqw/C0g==
+
 "@microsoft/api-extractor-model@7.28.13":
   version "7.28.13"
   resolved "https://registry.npmmirror.com/@microsoft/api-extractor-model/-/api-extractor-model-7.28.13.tgz#96fbc52155e0d07e0eabbd9699065b77702fe33a"

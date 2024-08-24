@@ -13,6 +13,7 @@
   "private": true,
   "type": "module",
   "dependencies": {
+    "@material/material-color-utilities": "^0.3.0",
     "@unocss/reset": "^0.62.2",
     "commitizen": "^4.3.0",
     "global": "^4.4.0",
