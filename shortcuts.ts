@@ -2,7 +2,7 @@
  * @Author: Arthur arthur@lwork.com
  * @Date: 2023-03-24 11:31:11
  * @LastEditors: Arthur arthur@lwork.com
- * @LastEditTime: 2024-08-23 22:39:08
+ * @LastEditTime: 2024-10-10 19:23:30
  * @FilePath: /gaker-editor/shortcuts.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -28,6 +28,7 @@ const codeSnippet: Record<string, string> = {
   'border-normal':
     'w-full rd-4px b-g-grey-3 b-1px b-solid p-8px hover:b-g-primary focus:b-g-primary',
   'sticky-top': 'sticky top-0 z-10 bg-white',
+  page: 'h-100vh w-100vw flex-normal-wrap',
 };
 /**转化导出*/
 export const shortcuts = codeSnippet;
