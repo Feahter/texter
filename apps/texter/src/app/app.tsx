@@ -2,7 +2,7 @@
  * @Author: Arthur arthur@lwork.com
  * @Date: 2024-08-22 21:47:11
  * @LastEditors: Arthur arthur@lwork.com
- * @LastEditTime: 2024-10-13 15:55:28
+ * @LastEditTime: 2024-10-13 15:59:37
  * @FilePath: /texter/apps/texter/src/app/app.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -12,8 +12,7 @@ import {
 } from '../utils/generateColors';
 import { toggleTheme } from '../utils/toggleTheme';
 import ColorPicker from '../components/ColorPicker';
-import { useDBInstance } from '../utils/DB';
-import { useCallback, useEffect, useMemo, useRef } from 'react';
+import { useCallback, useEffect, useMemo } from 'react';
 import { setMultiVars } from '../utils/setCSSVariable';
 import IndexedDBStorage from '../utils/myDB';
 export function App() {
@@ -25,13 +24,14 @@ export function App() {
   const redColorArr2 = createMixinTonalPalette('#ff0000', '#808080');
   const greenColorArr2 = createMixinTonalPalette('#00ff00', '#00ff00');
   const blueColorArr2 = createMixinTonalPalette('#0000ff', '#0000ff');
+  /**数据库实例 */
   const DB = useMemo(() => new IndexedDBStorage('texter', 'config'), []);
   const defaultConfig = {
     'color-primary': 'blue',
   }
   const init = useCallback(async () => {
     if (DB) {
-      const res = await DB.getItem('colors');
+      const res: any = await DB.getItem('colors');
       console.log('getItem success: ', res);
       setMultiVars(res);
     }
