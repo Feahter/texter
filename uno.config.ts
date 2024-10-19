@@ -8,6 +8,7 @@
  */
 // https://unocss.dev/
 // https://unocss-preset-extra.moomfe.com/
+// https://icones.js.org/
 import {
   defineConfig,
   presetAttributify,

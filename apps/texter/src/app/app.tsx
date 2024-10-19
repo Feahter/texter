@@ -2,7 +2,7 @@
  * @Author: Arthur arthur@lwork.com
  * @Date: 2024-08-22 21:47:11
  * @LastEditors: Arthur arthur@lwork.com
- * @LastEditTime: 2024-10-13 15:59:37
+ * @LastEditTime: 2024-10-19 12:03:31
  * @FilePath: /texter/apps/texter/src/app/app.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -78,6 +78,7 @@ export function App() {
       </div>
       <div className="i-vscode-icons:file-type-light-pnpm" />
       <div className="i-vscode-icons:file-type-light-pnpm?mask text-red-300" />
+      <div className='i-icon-park:loading animate-spin' />
       <div className="size-20 flex-center bg-green rd-4px shadow animated animated-(~ fade-in-up infinite slow)">
         Demo
       </div>
